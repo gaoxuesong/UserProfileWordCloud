@@ -4,7 +4,7 @@ Creates user profile by word cloud generator in Python.
 
 On Ubuntu 14.04
 ## Preinstallation
-Sudo apt-get update
+sudo apt-get update
 
 sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
 
@@ -12,7 +12,7 @@ sudo apt-get install libgtk2.0-dev
 
 sudo apt-get install glade
 
-
+## installation freetype
 wget http://download.savannah.gnu.org/releases/freetype/freetype-2.4.10.tar.gz
 
 tar zxvf freetype-2.4.10.tar.gz
@@ -27,6 +27,8 @@ make
 
 make install
 
+## installation libpng
+sudo apt-get install zlib1g-dev
 
 wget http://prdownloads.sourceforge.net/libpng/libpng-1.6.17.tar.gz?download
 
@@ -42,7 +44,7 @@ make
 
 make install
 
-
+## add requirements via pip
 sudo pip install Theano
 
 sudo pip install Cython
@@ -81,10 +83,21 @@ git clone https://github.com/gaoxuesong/UserPorfileWordCloud.git
 
 cd UserProfileWordCloud
 
-
-Add FONT_PATH in /etc/profile
-
+## set FONT_PATH
+### Add FONT_PATH in /etc/profile
+vi /etc/profile
+#### For Ubuntu 12.04
 FONT_PATH=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf
+
+#### For Ubuntu 14.04
+FONT_PATH=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+
+export FONT_PATH
+
+### source /etc/profile
+source /etc/profile
+
+echo $FONT_PATH
 
 ## Running
 python userprofile.py
