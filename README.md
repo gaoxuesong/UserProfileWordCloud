@@ -1,9 +1,7 @@
 User Profile Word Cloud -- UPWC
 ==========
-Creates user profile by word cloud generator in Python.
+Creates user profile by word cloud generator (https://github.com/amueller/word_cloud) in Python.
 
-## Word cloud
-A little word cloud generator in Python. Read more about it on the [website][website]
 
 On Ubuntu 14.04
 ## Preinstallation
