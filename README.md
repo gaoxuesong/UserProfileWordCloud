@@ -2,6 +2,9 @@ User Profile Word Cloud -- UPWC
 ==========
 Creates user profile by word cloud generator in Python.
 
+## Word cloud
+A little word cloud generator in Python. Read more about it on the [website][website]
+
 On Ubuntu 14.04
 ## Preinstallation
 sudo apt-get update
@@ -102,3 +105,4 @@ echo $FONT_PATH
 ## Running
 python userprofile.py
 
+[website]: http://amueller.github.io/word_cloud/
