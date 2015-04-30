@@ -20,7 +20,7 @@ wc = WordCloud(font_path="simhei.ttf", background_color="white", max_words=2000,
 wc.generate(text)
 
 # store to file
-wc.to_file(path.join(d, "alice.png"))
+wc.to_file(path.join(d, "alice_Chinese.png"))
 
 # show
 # plt.imshow(wc)
