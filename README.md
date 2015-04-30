@@ -77,6 +77,11 @@ On Ubuntu 14.04
     source /etc/profile
     echo $FONT_PATH
 
+## Using Local ttf for Chinese language
+Set font_path in your code
+ 
+    wc = WordCloud(font_path="simhei.ttf", background_color="white", max_words=2000, mask=alice_mask, stopwords=STOPWORDS.add("Qq"))
+
 ## Running
 
     python userprofile.py
