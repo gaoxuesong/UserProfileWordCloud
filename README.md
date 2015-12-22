@@ -55,7 +55,7 @@ On Ubuntu 14.04
 
 ## Installation UPWC
 
-    git clone https://github.com/gaoxuesong/UserPorfileWordCloud.git 
+    git clone https://github.com/gaoxuesong/UserProfileWordCloud.git 
     cd UserProfileWordCloud
 
 ## set FONT_PATH
